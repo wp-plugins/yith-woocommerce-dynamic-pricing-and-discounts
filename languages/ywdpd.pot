@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Dynamic Pricing and Discounts\n"
+"POT-Creation-Date: 2015-06-03 14:00+0100\n"
+"PO-Revision-Date: 2015-06-03 14:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:118
+msgid "Please insert a description for the rule"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:119
+msgid "Do you really want to delete this rule?"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:159
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:250
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:163
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:252
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:166
+msgid "Cart Discount"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:172
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:173
+msgid "Dynamic Pricing"
+msgstr ""
+
+#: ../includes/class-yith-wc-dynamic-pricing-admin.php:278
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/functions.yith-wc-dynamic-pricing.php:22
+msgid "All categories"
+msgstr ""
+
+#: ../init.php:33
+msgid ""
+"You can't activate the free version of YITH WooCommerce Dynamic Pricing and "
+"Discounts while you are using the premium one."
+msgstr ""
+
+#: ../init.php:54
+msgid ""
+"YITH WooCommerce Dynamic Pricing and Discounts is enabled but not effective. "
+"It requires Woocommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/general-options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:24
+msgid "Enable Dynamic Pricing and Discounts"
+msgstr ""
+
+#: ../plugin-options/general-options.php:32
+msgid "Add a new rule for pricing"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:32
+#: ../templates/admin/options-pricing-rules.php:50
+msgid "Apply to"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:36
+#: ../templates/admin/options-pricing-rules.php:54
+msgid "All products"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:37
+#: ../templates/admin/options-pricing-rules.php:55
+msgid "Categories in list"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:39
+#: ../templates/admin/options-pricing-rules-panel.php:50
+#: ../templates/admin/options-pricing-rules.php:57
+#: ../templates/admin/options-pricing-rules.php:76
+msgid "Select in what products apply the rule"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:44
+#: ../templates/admin/options-pricing-rules.php:63
+msgid "Categories"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:47
+#: ../templates/admin/options-pricing-rules.php:66
+msgid "Search for a category"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:56
+msgid "Discount Rules"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:61
+#: ../templates/admin/options-pricing-rules.php:87
+msgid "Minimum Quantity"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:62
+#: ../templates/admin/options-pricing-rules.php:82
+#: ../templates/admin/options-pricing-rules.php:88
+msgid "Discount Amount"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:65
+#: ../templates/admin/options-pricing-rules.php:91
+msgid "e.g. 5"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules-panel.php:66
+#: ../templates/admin/options-pricing-rules.php:92
+msgid "e.g. 50"
+msgstr ""
+
+#: ../templates/admin/options-pricing-rules.php:20
+msgid "Add new rule"
+msgstr ""
