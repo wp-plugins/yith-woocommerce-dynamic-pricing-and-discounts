@@ -49,7 +49,6 @@
             return;
           }
           selected_values = [];
-
           select.find('option').each(function() {
             if (!$(this).is(":selected")) {
               return $(this).remove();

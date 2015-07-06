@@ -92,10 +92,13 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing_Admin' ) ) {
 
             //Add action links
             add_filter( 'plugin_action_links_' . plugin_basename( YITH_YWDPD_DIR . '/' . basename( YITH_YWDPD_FILE ) ), array( $this, 'action_links' ) );
-           // add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 4 );
+            add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 4 );
 
             //custom styles and javascripts
             add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_styles_scripts' ), 11);
+
+            //tab premium
+            add_action( 'yith_ywraq_premium_tab', array( $this, 'premium_tab' ) );
 
         }
 
@@ -163,7 +166,7 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing_Admin' ) ) {
             );
 
             if ( defined( 'YITH_YWDPD_FREE_INIT' ) ) {
-             //   $admin_tabs['premium'] = __( 'Premium Version', 'ywdpd' );
+                $admin_tabs['premium'] = __( 'Premium Version', 'ywdpd' );
             }
             else {
                 $admin_tabs['cart-discount']     = __( 'Cart Discount', 'ywdpd' );
@@ -251,9 +254,9 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing_Admin' ) ) {
         public function action_links( $links ) {
 
             $links[] = '<a href="' . admin_url( "admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'ywdpd' ) . '</a>';
-//            if ( defined( 'YITH_YWDPD_FREE_INIT' ) ) {
-//                $links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'ywdpd' ) . '</a>';
-//            }
+            if ( defined( 'YITH_YWDPD_FREE_INIT' ) ) {
+              $links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'ywdpd' ) . '</a>';
+           }
 
             return $links;
         }
@@ -293,7 +296,7 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing_Admin' ) ) {
          * @return  string The premium landing link
          */
         public function get_premium_landing_uri(){
-            return defined( 'YITH_REFER_ID' ) ? $this->_premium_landing . '?refer_id=' . YITH_REFER_ID : $this->_premium_landing;
+            return defined( 'YITH_REFER_ID' ) ? $this->_premium_landing . '?refer_id=' . YITH_REFER_ID : $this->_premium_landing . '?refer_id=1030585';
         }
 
 

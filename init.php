@@ -2,7 +2,7 @@
 /*
 Plugin Name: YITH WooCommerce Dynamic Pricing and Discounts
 Description: YITH WooCommerce Dynamic Pricing and Discounts offers a powerful tool to directly modify prices and discounts of your store
-Version: 1.0.0
+Version: 1.0.1
 Author: Yithemes
 Author URI: http://yithemes.com/
 Text Domain: ywdpd
@@ -61,7 +61,7 @@ if ( !function_exists( 'yith_ywdpd_install_woocommerce_admin_notice' ) ) {
 if ( defined( 'YITH_YWDPD_VERSION' ) ) {
     return;
 }else{
-    define( 'YITH_YWDPD_VERSION', '1.0.0' );
+    define( 'YITH_YWDPD_VERSION', '1.0.1' );
 }
 
 if ( ! defined( 'YITH_YWDPD_FREE_INIT' ) ) {

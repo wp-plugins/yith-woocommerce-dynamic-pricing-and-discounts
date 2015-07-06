@@ -1,10 +1,10 @@
-=== YITH WooCommerce Dynamic Pricing and Discounts  ===
+﻿=== YITH WooCommerce Dynamic Pricing and Discounts  ===
 
 Contributors: yithemes
-Tags: woocommerce bulk pricing, woocommerce discounts, woocommerce dynamic discounts, woocommerce dynamic pricing, woocommerce prices, woocommerce pricing, woocommerce wholesale pricing, woocommerce cart discount, pricing, dynamic pricing, cart discount, special offers, bulk price
+Tags:
 Requires at least: 3.5.1
 Tested up to: 4.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ There, you will find all Yithemes plugins with quick access to plugin setting pa
 
 
 == Changelog ==
+= 1.0.1 =
+Fix minor bug
+
 = 1.0.0 =
 Initial release
 

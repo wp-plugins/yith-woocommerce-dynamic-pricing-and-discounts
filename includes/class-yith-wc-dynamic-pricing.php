@@ -31,7 +31,7 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing' ) ) {
          * @var string
          * @since 1.0.0
          */
-        public $plugin_options = 'yit_ywdpd_options';
+        public $plugin_options = 'yit_ywdpd_free_options';
 
         public $validated_rules = array();
 
