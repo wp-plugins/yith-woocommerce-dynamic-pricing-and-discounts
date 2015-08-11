@@ -91,6 +91,8 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing_Frontend' ) ) {
                 }
 
                 $item_discounts = YITH_WC_Dynamic_Pricing()->get_adjusts_to_product( $cart_item );
+
+
                 if ( !empty( $item_discounts ) ) {
                     YITH_WC_Dynamic_Pricing()->apply_discount( $cart_item, $cart_item_key, $item_discounts );
                 }

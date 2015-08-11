@@ -31,7 +31,7 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing' ) ) {
          * @var string
          * @since 1.0.0
          */
-        public $plugin_options = 'yit_ywdpd_free_options';
+        public $plugin_options = 'yit_ywdpd_options';
 
         public $validated_rules = array();
 
@@ -62,6 +62,8 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing' ) ) {
 
             /* plugin */
             add_action( 'after_setup_theme', array( $this, 'plugin_fw_loader' ), 1 );
+
+
 			
 
         }
@@ -75,7 +77,9 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing' ) ) {
          * @author Emanuela Castorina
          */
         function get_pricing_rules(){
+
             $pricing_rules  = $this->filter_valid_rules(  $this->get_option( 'pricing-rules' ) );
+
             return $pricing_rules;
         }
 
@@ -92,7 +96,7 @@ if ( !class_exists( 'YITH_WC_Dynamic_Pricing' ) ) {
             if( !is_array( $pricing_rules ) ){
                 return;
             }
-            
+
 
             foreach( $pricing_rules as $key => $rule ){
 
